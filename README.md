@@ -69,8 +69,7 @@ Diagnosed by tracing occupancy by hand against simulation output, confirming the
 Both domains clear their required operating frequency with substantial margin, indicating the CDC synchronization logic is not the design's timing bottleneck.
 
 ## Waveform
-
-*(insert GTKWave screenshot here — `sim/async_fifo.vcd`, showing both clocks and correct write/read behavior)*
+![Async FIFO waveform](docs/Waveform.png)
 
 ## Toolchain
 
