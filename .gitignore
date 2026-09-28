@@ -1,4 +1,4 @@
-.vcd
+*.vcd
 *.jou
 simv
 *.vvp
@@ -6,3 +6,5 @@ simv
 work/
 *.log
 .Xil/
+*.json
+*_sim
