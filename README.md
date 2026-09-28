@@ -81,6 +81,3 @@ iverilog -g2012 -o sim/async_fifo_sim src/async_fifo.sv src/gray_counter.sv src/
 vvp sim/async_fifo_sim
 ```
 
-## Resume bullet
-
-> Designed and verified an asynchronous FIFO in SystemVerilog for clock domain crossing, implementing gray-code pointers, two-flop synchronizers for metastability mitigation, and full/empty flag logic across independent 50MHz write and 25MHz read clock domains. Diagnosed and fixed a real full-flag CDC bug that only manifested under asynchronous clocks. Synthesized with Yosys targeting iCE40 HX8K — 236 LUTs, 280 flip-flops, 152.86MHz/195.54MHz Fmax.
