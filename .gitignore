@@ -1,0 +1,8 @@
+.vcd
+*.jou
+simv
+*.vvp
+*.out
+work/
+*.log
+.Xil/
